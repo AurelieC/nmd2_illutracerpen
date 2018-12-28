@@ -84,7 +84,7 @@ margin-top: 30px;
 
 .footer {
     background-color: #CAE19C;
-    height: 340px ;
+    height: 280px ;
     margin-top: 5em;
   
 }
@@ -136,10 +136,24 @@ word-spacing: 3em;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.icons {
-    margin-top: 20px;
+.artevelde {
+    width: 50px;
+float: right;
+margin-top: -48px;
+margin-right: 45px;
+
 }
 
+.icons {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+.tijdlijn {
+width: 400px;
+}
 
 @media (min-width: 768px) {
 
@@ -178,6 +192,7 @@ word-spacing: 3em;
     .icons {
         margin-top: 35px;
         align-items: center;
+        margin-left: 50px;
        
     }
 
@@ -188,8 +203,14 @@ word-spacing: 3em;
     .artevelde {
         float: right;
         margin-top: 20px;
-    }
+width:  100px;  
+ }
 
+    .tijdlijn {
+        width: 325px;
+        float: right;
+        margin-top: -50px;
+        }
 
    
 }
