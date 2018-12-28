@@ -73,6 +73,10 @@
         border: transparent;
 }
 
+.btn3 {
+float: right;
+margin-top: 30px;
+}
 
 .footer {
     background-color: #CAE19C;
