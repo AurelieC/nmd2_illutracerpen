@@ -61,6 +61,7 @@
 
 }
 
+
 .btn2 {
     float: right;
     background-color: #88AFB2;
@@ -153,5 +154,7 @@ word-spacing: 3em;
     .info {
         padding-top: 0;
     }
+
+   
 }
 
