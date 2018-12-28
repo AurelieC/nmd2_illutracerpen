@@ -155,6 +155,11 @@ word-spacing: 3em;
         padding-top: 0;
     }
 
+    .bar {
+        width: 600px;
+        float: right;
+    }
+
    
 }
 
