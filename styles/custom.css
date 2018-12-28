@@ -84,9 +84,13 @@ margin-top: 30px;
 
 .footer {
     background-color: #CAE19C;
-    height: 375px ;
+    height: 340px ;
     margin-top: 5em;
+  
 }
+
+
+
 
 .progress-bar {
     background-color: #CAE19C;
@@ -132,6 +136,10 @@ word-spacing: 3em;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.icons {
+    margin-top: 20px;
+}
+
 
 @media (min-width: 768px) {
 
@@ -156,7 +164,7 @@ word-spacing: 3em;
     }
     .footer {
         background-color: #CAE19C;
-        height: 200px ;
+        height: 150px ;
     }
 
     .info {
@@ -167,6 +175,21 @@ word-spacing: 3em;
         width: 600px;
         float: right;
     }
+    .icons {
+        margin-top: 35px;
+        align-items: center;
+       
+    }
+
+    .logo2 {
+        width: 250px;
+        }
+
+    .artevelde {
+        float: right;
+        margin-top: 20px;
+    }
+
 
    
 }
