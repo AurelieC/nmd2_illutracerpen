@@ -388,6 +388,12 @@ width:  100px;
             width: 250px;
             float: right;
         }
+
+        .send {
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-right: -100px;
+        }
    
 }
 
