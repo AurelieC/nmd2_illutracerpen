@@ -323,6 +323,20 @@ border-radius: 5px;
     width: 2000px;
 }
 
+.vraag {
+    width: 200px;
+    float: right;
+}
+
+#nieuwsbrief {
+    background-color: #88AFB2;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+#bericht {
+    height: 100px;
+}
 @media (min-width: 768px) {
 
 
@@ -501,6 +515,14 @@ width:  100px;
             margin-left: 60px;
             margin-top: -10px;
             margin-bottom: -10px;
+        }
+        #nieuwsbrief {
+            background-color: #88AFB2;
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
         }
 }
 
