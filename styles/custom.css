@@ -43,32 +43,40 @@
 
 #u {
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 63px;
     margin-top: 50px;
 
 
 }
 #name {
     border-radius: 10px;
-    width: 200px;
+    width: 230px;
 
 }
 
 #firstname {
     border-radius: 10px;
-    width: 200px;
+    width: 230px;
 
 }
+#country {
+    border-radius: 5px;
+    width: 230px;
+    float: right;
+    background-color: #859698;
+}
+
 
 .input-xlarge {
     border-radius: 10px;
-    width: 300px;
+    width: 230px;
     float: right;
 }
 
 .input-small{
     border-radius: 10px;
     float: right;
+    width: 75px;
 }
 
 .input-mini {
@@ -79,6 +87,8 @@
 .input-medium {
     border-radius: 10px;
     float: right;
+    width: 75px;
+
 }
 
 .control-label {
@@ -104,6 +114,10 @@ margin-top: 60px;
     color: white;
 }
 
+.controls {
+    float: right;
+    margin-left: 15px;
+}
 
 .btn-warning {
     color: #212529;
@@ -218,6 +232,25 @@ margin-right: 45px;
 width: 400px;
 }
 
+.dpd {
+    width: 60px;
+    margin-right: 30px;
+    float: left;
+    margin-left: -15px;
+}
+
+.post {
+    width: 50px;
+    margin-right: 40px;
+    float: left;
+    margin-left: -15px;
+}
+
+.check {
+    float: right;
+margin-top: 8px;
+}
+
 
 @media (min-width: 768px) {
 
@@ -292,6 +325,67 @@ width:  100px;
 
         #btn4 {
             margin-left: -20px;
+        }
+
+        .dpd {
+            width: 60px;
+            margin-right: 40px;
+        }
+        
+        .check {
+            float: right;
+        margin-top: 7px;
+        }
+
+        .post {
+            width: 50px;
+            margin-right: 40px;
+        }
+        #u {
+            margin-bottom: 20px;
+            margin-right: 100px;
+            margin-top: 50px;
+        
+        
+        }
+        .input-xlarge {
+            border-radius: 10px;
+            width: 250px;
+            float: right;
+        }
+        
+        .input-small{
+            border-radius: 10px;
+            float: right;
+            width: 95px;
+        }
+        
+        .input-mini {
+            border-radius: 10px;
+            float: right;
+        }
+        
+        .input-medium {
+            border-radius: 10px;
+            float: right;
+            width: 95px;
+        
+        }
+        #name {
+            border-radius: 10px;
+            width: 250px;
+        
+        }
+        
+        #firstname {
+            border-radius: 10px;
+            width: 250px;
+        
+        }
+        #country {
+            border-radius: 10px;
+            width: 250px;
+            float: right;
         }
    
 }
