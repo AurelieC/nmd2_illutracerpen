@@ -159,9 +159,14 @@ margin-top: 30px;
 float: right;
 margin-top: 45px;
 
-
-
 }
+.btn7 {
+    float: left;
+    margin-top: 45px;
+   
+    
+    }
+
 .footer {
     background-color: #CAE19C;
     height: 280px ;
@@ -281,6 +286,18 @@ margin-top: 8px;
     margin-bottom: -10px;
     margin-left: 60px;
 
+}
+
+.betaal {
+border-color: #cddae7;
+width: 350px;
+margin-bottom: 20px;
+border-radius: 5px;
+
+}
+.send2 {
+    margin-top: 50px;
+   
 }
 
 @media (min-width: 768px) {
@@ -424,6 +441,15 @@ width:  100px;
             margin-top: 20px;
             margin-right: -100px;
         }
+
+        .send2 {
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-right: -100px;
+        }
+
+      
+
 
         .na {
             margin-bottom: 80px;
