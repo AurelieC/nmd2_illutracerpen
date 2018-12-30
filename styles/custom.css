@@ -340,7 +340,7 @@ border-radius: 5px;
 
 .driehoeken {
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .cirkels {
@@ -356,8 +356,13 @@ border-radius: 5px;
     border-color: #859698;
  }
 
+#btn9 {
+    margin-top: -40px;
+}
 
-
+#driehoek {
+    margin-bottom: 30px;
+}
 
 @media (min-width: 768px) {
 
@@ -563,6 +568,14 @@ width:  100px;
         .hr {
            border-width: 6px;
            border-color: #859698;
+        }
+
+        #btn9 {
+            margin-top: -40px;
+        }
+
+        #driehoek {
+            margin-bottom: 30px;
         }
 }
 
