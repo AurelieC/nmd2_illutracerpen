@@ -337,6 +337,25 @@ border-radius: 5px;
 #bericht {
     height: 100px;
 }
+
+.driehoeken {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cirkels {
+    margin-top: 60px;
+}
+
+.gif {
+    margin-top: 40px;
+}
+
+
+
+
+
+
 @media (min-width: 768px) {
 
 
@@ -523,6 +542,24 @@ width:  100px;
             padding-top: 10px;
             padding-bottom: 10px;
 
+        }
+
+        .driehoeken {
+            margin-left: 80px;
+            margin-bottom: 40px;
+        }
+
+        .cirkels {
+            margin-top: 50px;
+        }
+
+        .gif {
+            float: right;
+        }
+
+        .hr {
+           border-width: 6px;
+           border-color: #859698;
         }
 }
 
